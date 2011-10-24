@@ -1,3 +1,8 @@
+DNS
+---
+
+First off, add a DNS record (either fully qualified domains, or subdomains) for each service you'd like to run, all pointed to the IP address of your HTTP proxy. Note that it may take a while for your updates to propagate, so don't despair if things aren't as expected right away.
+
 Firewalls
 ---------
 
