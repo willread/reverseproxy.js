@@ -7,4 +7,5 @@ var proxyServer = httpProxy.createServer({
 		"subdomain2.host.com": "127.0.0.1:3002"
 	}
 });
+
 proxyServer.listen(8080, "localhost");
